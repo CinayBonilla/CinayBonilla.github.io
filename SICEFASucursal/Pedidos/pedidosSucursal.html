@@ -1,0 +1,65 @@
+<div id="contenedorClientes" class="row d-flex  justify-content-center align-content-center">
+    <div class=" tablita justify-content-center align-content-center mb-2">
+        <h2 class="text-center ">Gestión de Pedidos de compra</h2>
+
+        <div class="contn d-flex justify-content-center align-content-center container">
+
+            <div class="contF container-fluid align-content-center">
+                
+                 <label class="mt-2">Sucursal encargada:</label><br>
+                <input class="" required type="text" id="txtSucursal" name="txtSucursal" placeholder="Ingresa la sucursal"><br><br>
+                <label class="mt-2">Empleado encargado:</label><br>
+                <input class="" required type="text" id="txtEmp" name="txtEmp" placeholder="Ingresa nombre del empelado"><br><br>
+                
+                <label class="mt-2">Fecha:</label><br>
+                <input class="" required type="date" id="txtFecha" name="txtFecha" >  
+       
+            </div>
+           <div class="contF container-fluid align-content-center">
+                  
+                <label for="txtHora" class="mt-2">Hora:</label>
+                <input required="" id="txtHora" type="time" name="txtHora"  />
+                <br>
+                <label class="mt-2">Producto</label><br>
+                <input class="" required type="text" id="txtProducto" name="txtProducto" placeholder="Ingresa el producto"><br><br>
+                <label class="mt-2">Cantidad de productos:</label><br>
+                <input class="" required type="number" id="txtCanP" name="txtCanP" placeholder="Ingresa cantidad">
+            </div>
+           
+           
+        </div>
+
+        <div class="d-flex mb-5 justify-content-center align-content-center" >
+            <button class="btn btn-info mx-2" id="btnAgregar" onclick="moduloPedidos.agregarPedido();">Agregar</button>
+            <button class="btn btn-info mx-2" id="btnActualizar" onclick="moduloPedidos.actualizarPedido();">Modificar</button>
+            <button class="btn btn-info mx-2" id="btnEliminar" onclick="moduloPedidos.eliminarPedido();">Eliminar</button>
+            <button class="btn btn-info mx-2" id="btnLimpiar" onclick="moduloPedidos.limpiarCampos();">Limpiar</button>
+        </div>
+    <!--</div>
+
+    <div class="tablita col-12">-->
+        <div class="mb-3 justify-content-center align-content-center text-center">
+            <label >Buscar pedido:</label>
+            <input type="text" id="txtBuscarPedidos">
+            <button class="btn btn-info mx-2" onclick="moduloPedidos.buscarPedido();">Buscar</button>
+        </div>
+        <div class="tablaCli table-responsive d-flex table pt-3 mb-3">
+            <table class="tablaCli table table-hover text-nowrap">
+                <thead>
+                    <tr class="table-info">
+                        <td class="mx-2">Sucursal Encargada</td>
+                        <td class="mx-2">Empleado que atendio</td>
+                        <td class="mx-2">Fecha</td>
+                        <td class="mx-2">Hora</td>
+                        <td class="mx-2">Productos</td>
+                        <td class="mx-2">Cantidad de productos</td>
+                        <td class="mx-2">Estatus</td>
+                    </tr>
+                </thead>
+                <tbody id="tblPedidos">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

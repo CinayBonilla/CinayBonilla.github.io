@@ -1,0 +1,92 @@
+
+<div id="contenedorClientes" class="row d-flex  justify-content-center align-content-center">
+    <div class=" tablita justify-content-center align-content-center mb-2">
+        <h2 class="text-center ">Gestión de Clientes</h2>
+
+        <div class="contn d-flex justify-content-center align-content-center container">
+
+            <div class="contF container-fluid">
+                <label class="">Nombre:</label><br>
+                <input class="" required type="text" id="txtNombreCli" name="txtNombreEmp" placeholder="Ingresa nombre cliente"><br><br>
+                <label class="">Apellido paterno:</label><br>
+                <input class="" required type="text" id="txtApePCli" name="txtApePEmp" placeholder="Ingresa apellido cliente"><br><br>
+                <label class="">Apellido materno:</label><br>
+                <input class="" required type="text" id="txtApeMCli" name="txtApeMEmp" placeholder="Ingresa apellido cliente"><br><br>
+                <label class="mt-2">Género:</label><br>
+                <select class=" " id="txtGenero" name="txtGenero">
+                    <option value="Masculino" >Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Otro">Otro</option>
+                </select><br><br>
+                <label class="">Fecha de nacimiento:</label><br>
+                <input class="" required type="date" id="txtFechaNacCli" name="txtFechaNacCli" >
+            </div>
+            <div class="contF container-fluid">
+                <label class="">RFC:</label><br>
+                <input class="" required type="text" id="txtRFCCli" name="txtRFCCli" placeholder="Ingresa RFC cliente"><br><br>
+                <label class="">CURP:</label><br>
+                <input class="" required type="text" id="txtCURPCli" name="txtCURPCli" placeholder="Ingresa CURP cliente"><br><br>
+                <label class="">Ciudad:</label><br>
+                <input class="" required type="text" id="txtCiudadCli" name="txtCiudadCli" placeholder="Ingresa ciudad cliente"><br><br>
+                <label class="">Estado:</label><br>
+                <input class="" required type="text" id="txtEstadoCli" name="txtEstadoCli" placeholder="Ingresa estado cliente"><br><br>
+                <label class="">Teléfono:</label><br>
+                <input class="" required type="number" id="txtTelCli" name="txtTelCli" placeholder="Ingresa teléfono cliente">
+            </div>
+            <div class="contF container-fluid">
+                <label class="">Domicilio:</label><br>
+                <input class="" required type="text" id="txtDomCli" name="txtDomCli" placeholder="Ingresa domicilio cliente"><br><br>
+                <label class="">Código postal:</label><br>
+                <input class="" required type="number" id="txtCPCli" name="txtCPCli" placeholder="Ingresa C.P. cliente"><br><br>
+                <label class="">Fecha de registro:</label><br>
+                <input class="" required type="date" id="txtFechaReg" name="txtFechaReg" placeholder="Ingresa fecha registro"><br><br>
+                <label class="">E-mail:</label><br>
+                <input class="" required type="email" id="txtEmailCli" name="txtEmailCli" placeholder="Ingresa e-mail cliente"><br><br>
+                <label>Foto:</label><br>
+                <input required type="file" id="txtFotoCli" name="txtFotoCli" >
+            </div>
+        </div>
+
+        <div class="d-flex mb-5 justify-content-center align-content-center" >
+            <button class="btn btn-info mx-2" id="btnAgregar" onclick="moduloClientes.agregarCliente();">Agregar</button>
+            <button class="btn btn-info mx-2" id="btnActualizar" onclick="moduloClientes.actualizarCliente();">Modificar</button>
+            <button class="btn btn-info mx-2" id="btnEliminar" onclick="moduloClientes.eliminarCliente();">Eliminar</button>
+            <button class="btn btn-info mx-2" id="btnLimpiar" onclick="moduloClientes.limpiarCampos();">Limpiar</button>
+        </div>
+    <!--</div>
+
+    <div class="tablita col-12">-->
+        <div class="mb-3 justify-content-center align-content-center text-center">
+            <label >Buscar cliente:</label>
+            <input type="text" id="txtBuscarCliente">
+            <button class="btn btn-info mx-2" onclick="moduloClientes.cargarTabla();">Buscar</button>
+        </div>
+        <div class="tablaCli table-responsive d-flex table pt-3 mb-3">
+            <table class="tablaCli table table-hover text-nowrap">
+                <thead>
+                    <tr class="table-info">
+                        <td class="mx-2">Nombre(s)</td>
+                        <td class="mx-2">Apellido paterno</td>
+                        <td class="mx-2">Apellido materno</td>
+                        <td class="mx-2">Genero</td>
+                        <td class="mx-2">Fecha de nacimiento</td>
+                        <td class="mx-2">RFC</td>
+                        <td class="mx-2">CURP</td>
+                        <td class="mx-2">Ciudad</td>
+                        <td class="mx-2">Estado</td>
+                        <td class="mx-2">Telefono</td>
+                        <td class="mx-2">Domicilio</td>
+                        <td class="mx-2">Código Postal</td>
+                        <td class="mx-2">Fecha de registro</td>
+                        <td class="mx-2">E-mail</td>
+                        <td class="mx-2">Estatus</td>
+                    </tr>
+                </thead>
+                <tbody id="tblClientes">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

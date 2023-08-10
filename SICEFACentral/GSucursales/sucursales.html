@@ -1,0 +1,79 @@
+<div id="contenedorCentral" class="row d-flex  justify-content-center align-content-center">
+    <div class=" tablita justify-content-center align-content-center mb-2">
+        <h2 class="text-center ">Gestión de Sucursales</h2>
+
+        <div class="contn d-flex justify-content-center align-content-center container">
+
+            <div class="contF container-fluid">
+                <label class="">Nombre Sucursal:</label><br>
+                <input class="" required type="text" id="txtNombreS" name="txtNombreS" placeholder="Ingresa nombre de la sucursal"><br><br>
+                <label class="">Nombre del titular:</label><br>
+                <input class="" required type="text" id="txtNombreT" name="txtNombreT" placeholder="Ingresa el nombre del titular"><br><br>
+                <label class="">RFC del Titular:</label><br>
+                <input class="" required type="text" id="txtRfcT" name="txtRfcT" placeholder="Ingresa el RFC del titular"><br><br>
+
+                <label class="">Domicilio:</label><br>
+                <input class="" required type="text" id="txtDom" name="txtDomicilio" placeholder="Ingresa el Domicilio">
+            </div>
+            <div class="contF container-fluid">
+                <label class="">Colonia:</label><br>
+                <input class="" required type="text" id="txtColonia" name="txtColonia" placeholder="Ingresa colonia sucursal"><br><br>
+               <label class="">Ciudad:</label><br>
+                <input class="" required type="text" id="txtCiudad" name="txtCiudad" placeholder="Ingresa ciudad sucursal"><br><br>
+                <label class="">Estado:</label><br>
+                <input class="" required type="text" id="txtEstado" name="txtEstado" placeholder="Ingresa estado sucursal"><br><br>
+               <label class="">Código postal:</label><br>
+                <input class="" required type="number" id="txtCP" name="txtCP" placeholder="Ingresa C.P."><br><br>
+                           </div>
+            <div class="contF container-fluid">
+                 <label class="">Teléfono:</label><br>
+                 <input class="" required type="number" id="txtTel" name="txtTel" placeholder="Ingresa teléfono de la sucursal"> <br><br>
+                 <label class="">Longitud:</label><br>
+                <input class="" required type="number" id="txtLongitud" name="txtLongitud"><br><br>
+                <label class="">Latitud:</label><br>
+                <input class="" required type="number" id="txtLatitud" name="txtLatitud"><br><br>
+                
+            </div>
+        </div>
+
+        <div class="d-flex mb-5 justify-content-center align-content-center" >
+            <button class="btn btn-info mx-2" id="btnAgregar" onclick="moduloSucursales.agregarSucursal();">Agregar</button>
+            <button class="btn btn-info mx-2" id="btnActualizar" onclick="moduloSucursales.actualizarSucursal();">Modificar</button>
+            <button class="btn btn-info mx-2" id="btnEliminar" onclick="moduloSucursales.eliminarSucursal();">Eliminar</button>
+            <button class="btn btn-info mx-2" id="btnLimpiar" onclick="moduloSucursales.limpiarCampos();">Limpiar</button>
+        </div>
+    <!--</div>
+
+    <div class="tablita col-12">-->
+        <div class="mb-3 justify-content-center align-content-center text-center">
+            <label >Buscar Sucursal:</label>
+            <input type="text" id="txtBuscarSucursal">
+            <button class="btn btn-info mx-2" onclick="moduloSucursales.buscarSucursal();">Buscar</button>
+        </div>
+        <div class="tablaCli table-responsive d-flex table pt-3 mb-3">
+            <table class="tablaCli table table-hover text-nowrap">
+                <thead>
+                    <tr class="table-info">
+                        <td class="mx-2">Nombre Sucursal</td>
+                        <td class="mx-2">Nombre Titular</td>
+                        <td class="mx-2">Domicilio</td>
+                        <td class="mx-2">RFC</td>
+                        <td class="mx-2">Ciudad</td>
+                        <td class="mx-2">Colonia</td>
+                        <td class="mx-2">Estado</td>
+                         <td class="mx-2">C.P</td>
+                        <td class="mx-2">Telefono</td>
+                         <td class="mx-2">Longitud</td>
+                        <td class="mx-2">Latitud</td>
+                        <td class="mx-2">Estatus</td>
+                    </tr>
+                </thead>
+                <tbody id="tblSucursal">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+

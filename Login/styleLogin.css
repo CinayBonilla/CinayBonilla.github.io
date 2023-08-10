@@ -1,0 +1,41 @@
+/*Diseño de login*/
+.contLogin{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    height: 300px;
+    box-shadow: -4px -4px 10px rgba(110,168,254, .5);
+    background: linear-gradient(
+        rgba( 209, 214, 255, 0.8),
+        rgba(110,168,254, 0.1));
+    border-radius: 20px;
+    
+}
+
+.usuario, .contra{
+    border-style: none;
+    border-bottom: slategray;
+    outline: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    border-bottom-style: solid;
+    color: slategray;
+    
+}
+.tituloLogin{
+    color: dimgray;
+}
+.btLog{
+    width: 120px;
+    margin-top: 45px;
+    color: white;
+    background-color: slategray;
+}
+.btLog:hover{
+    color: white;
+    background-color: slategray;
+    
+}

@@ -1,0 +1,41 @@
+  [ 
+    {
+        "sucursal":"Centro", 
+        "empleado":"Maria Gonzaléz López", 
+        "fecha":"2023-07-01", 
+        "hora":"13:00", 
+        "productos" :"Ampicilina", 
+        "cantidadP":"16",
+        "estatus":"Pendiente"
+       
+    },
+   {
+        "sucursal":"Centro Max", 
+        "empleado":"Pedro Martínez Ruíz", 
+        "fecha":"2022-05-11" ,
+        "hora":"15:00",
+        "productos":"Paracetamol", 
+        "cantidadP":"23",
+       "estatus":"Pendiente"
+    },
+     {
+        "sucursal":"Centro", 
+        "empleado":"Maria Gonzaléz López", 
+        "fecha":"2022-05-11" ,
+        "hora":"15:00",
+        "productos":"Suero", 
+        "cantidadP":"12",
+       "estatus":"Pendiente"
+    },
+   {
+        "sucursal":"Plaza Mayor", 
+        "empleado":"Luis Hernández García", 
+        "fecha":"2020-04-09", 
+        "hora":"16:00", 
+        "productos":"Aspirina", 
+        "cantidadP":"23",
+        "estatus":"Pendiente"
+    }
+   
+
+]

@@ -1,0 +1,55 @@
+[ 
+    {
+        "nombre":"Diego Ponce Almager", 
+        "empleado":"Eric Torres Padilla", 
+        "fecha" : "2023-07-01", 
+        "hora" : "13:00", 
+        "productos" : "Amoxicilina", 
+        "cantidadP" : "25",
+        "precio":"300",
+        "estatus":"Activa"
+       
+    },
+   {
+        "nombre":"Jessica Corona Ramiréz", 
+        "empleado":"Lionel Andrés Messi", 
+        "fecha" : "2022-05-11" ,
+        "hora" : "15:00",
+        "productos" : "Alcohol", 
+        "cantidadP" : "23",
+        "precio":"300",
+       "estatus":"Activa"
+    },
+   {
+        "nombre":"Paola Nicole Garcia", 
+        "empleado": "Jahir Rodriguez Flores", 
+        "fecha" : "2020-04-09", 
+        "hora" : "16:00", 
+        "productos" : "Paracetamol", 
+        "cantidadP" : "47",
+        "precio":"300",
+       "estatus":"Activa"
+    },
+      {
+        "nombre":"Kevin Francisco Avila", 
+        "empleado":"Karina Guzman Perez", 
+        "fecha" : "2022-05-11" ,
+        "hora" : "15:00",
+        "productos" : "Suero", 
+        "cantidadP" : "120",
+        "precio":"300",
+       "estatus":"Activa"
+    },
+   {
+        "nombre":"Juan Carlos Lopez", 
+        "empleado": "Laura Ramiréz Cruz", 
+        "fecha" : "2020-04-09", 
+        "hora" : "16:00", 
+        "productos" : "Aspirina", 
+        "cantidadP" : "46",
+        "precio":"430",
+       "estatus":"Activa"
+    }
+   
+
+]

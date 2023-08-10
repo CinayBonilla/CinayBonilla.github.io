@@ -1,0 +1,138 @@
+/*Link de la fuente de letra que usamos*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/697/688/original/curve-light-blue-background-abstract-free-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.barra{
+    background-color: rgba( 0, 189, 255);
+    tab-size: 50px;
+}
+.logoFar{
+    width: 200px;
+    padding-left: 35px; 
+}
+.accesos{
+    
+    
+}
+
+.piePagina{
+    background-color: rgba( 0, 189, 255);
+}
+.diseñoLinea{
+    background-color: rgba( 0, 231, 221 );
+    padding: 5px;
+}
+.diseñoLineaT{
+    background-color: rgba( 0, 255, 243 );
+    padding: 5px;
+}
+h3{
+    border-color: white;
+    border-radius: 5px;
+    border: solid;
+}
+
+.imgHome{
+    width: 400px;
+}
+footer{
+    padding: 30px 40px;
+    width: 100%;
+    background: rgba(0, 189, 255);
+}
+.social_icon{
+    list-style: none;
+    display: flex;
+ 
+}
+.social_icon:hover{
+    align-content: center;
+    color: white;
+}
+.redes{
+    width: 35px;
+    margin-bottom: 4px;
+    padding-right: 5px;
+}
+.ig, .wp, .fb{
+    padding-left: 75px;
+}
+
+.logoDD{
+   width: 60px;
+}
+
+.contAcc{
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    background: linear-gradient(
+        rgba( 209, 214, 255, 0.8),
+        rgba(110,168,254, 0.1));
+    text-align: center;
+    border-radius: 15px;
+    transition: width 0.2s;
+    margin-bottom: 75px
+}
+
+.contAcc:hover{
+    
+    width: 250px;
+}
+.imdAcceso{
+    margin-top: 35px;
+    width: 150px;
+}
+
+.tablita{
+    border-radius: 15px;
+    background: linear-gradient(
+        rgba(110,168,254, 0.6 ),
+        rgba(209, 214, 255, 0.8));
+    padding-top: 50px;
+    
+}
+select{
+    width: 150px;
+}
+
+input, select{
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: solid 3px black;
+    border-radius: 3px;
+}
+/*--------------------------------*/
+.contn {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contF {
+    flex: 1 1 calc(33.33% - 20px); 
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 720px) {
+    .contF {
+      flex-basis: calc(100% - 20px);
+      margin-right: 0;
+    }
+  }
+
+ 

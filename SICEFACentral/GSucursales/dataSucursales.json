@@ -1,0 +1,62 @@
+[
+    
+
+    {
+        "nombreS":"Centro",
+        "nombreT":"María González López",
+        "domicilio":"Centro",
+        "rfcT":"GOAM900712",
+        "colonia":"Colonia Centro",
+        "ciudad":"León", 
+        "estado":"Guanajuato",
+        "cPostal":"37050",
+        "telefono":"4774567890", 
+        "longitud":"24.1515", 
+        "latitud":"101.3456", 
+        "estatus":"Activo"
+    },
+    
+    {
+        "nombreS":"Centro Max",
+        "nombreT":"Pedro Martínez Ruíz",
+        "domicilio":"Centro Max",
+        "rfcT":"MARP851125", 
+        "colonia":"Colonia Centro Max",
+        "ciudad":"León", 
+        "estado":"Guanajuato",
+        "cPostal":"37010", 
+        "telefono":"4776543210", 
+        "longitud":"24.1555", 
+        "latitud":"101.3400", 
+        "estatus":"Activo"
+    }, 
+    {
+       "nombreS":"Plaza Mayor", 
+       "nombreT":"Luis Hernández García",
+       "domicilio":"Plaza Mayor",
+       "rfcT":"HEGL950508",
+       "colonia":"Colonia Plaza Mayor", 
+       "ciudad":"León", 
+       "estado":"Guanajuato", 
+       "cPostal":"37020",
+       "telefono":"4771234567", 
+       "longitud":"24.1600", 
+        "latitud":"101.3500",
+        "estatus":"Activo"
+    },
+    {
+     
+    "nombreS":"Futurama", 
+    "nombreT":"Ana López Martínez",
+    "domicilio":"Futurama",   
+    "rfcT":"LOMA881215", 
+    "colonia":"Colonia Futurama", 
+    "ciudad":"Monterrey", 
+    "estado":"Nuevo León", 
+    "cPostal":"64000",
+    "telefono":"811231234",
+    "longitud":"25.1100",
+    "latitud":"100.0900",
+     "estatus":"Activo"
+    }
+]
